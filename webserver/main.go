@@ -11,5 +11,5 @@ func main(){
 }
 
 func webPage(wt http.ResponseWriter,rt *http.Request){
-	io.WriteString(wt, "<h2>The Web service on port 8086 has been changed!</h2>")
+	io.WriteString(wt, "<h2>The Web service on port 8086 has been changed! </h2>")
 }
